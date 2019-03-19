@@ -1,9 +1,0 @@
-langugage: node_js
-node_js:
-  - "10"
-# deploy:
-#   provider: heroku
-#   app:
-#     master: best-in-dogs
-#   api_key:
-#     secure: GyHyEuOO/MR7izEDk4094NrOIfmJr5q5QXG09EoYZM3UTU6kBb7EAbAnhwQM/3ZAT0DgRRkW3y5lNJA9UqbaxMvXmIVfTLO7iu1pLSsCsZEu6bU+CzE0wUhnHwZFQhJRQ3b9TgP3AYgJ/8fydCVICHXsXVLB7NgUZJN7/HIhFiVohZPJRpblkbzNMW6hJFq0mMffMEs6tZfUPbkCS6XiIusjRT3BtnZW11+f6CFbqi6vyI5oL+4AfEtWUsKRQ5jLCRHUGyNyYXKAudUe5dNstxARZCswZsry0S34S600a6HsUZVCpTkXNs1UCha/pfbEHAfB/5LHvvECeZ07mSpN2ny5+bb62b1rtGe1SH/CS6BZY6LLPvgr0cnaZXA7Dos7rZvfYNTh24Z30y+N77Cl1a4lwFW4im6l0dtSALnuwsqJ+LCG9DemJJjj8ux5Ukdw2u+RkD37ads2iHylqMRryaXeq11DSgWyHiRLDPLuirfea002cYLZOkdVa9F10pd8WpO6imtWIe+xL9Sv4loPomXPrVUfeM+/Sh2xXr/y7AeGT8b1jOvykzLw+w+RKXwlj1ysXe8XFAMt5xjxkcdjs/LAue5nOshYKEDRtFd6F2pWMcuq7ijDYXcjAeNdU4XlPI55hquM4d51f1J+GNJBvmHF0mmCNF2o7UnGrlG1uLQ=
