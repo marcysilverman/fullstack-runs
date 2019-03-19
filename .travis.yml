@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+services: mongodb
+env: MONGODB_URI=mongodb://localhost:27017/dogs
+deploy:
+  provider: heroku
+  app:
+    master: best-in-show
+  api_key:
+    secure: WKebP0ThLCjccnBggaOChyes8Q7+X84HTfr2QUNlx+BiYfGl/cjThUgpT6TYCph+LijOCLW8iZF2XXzPPjw3yCEYz8ANukmHbefxmeLZWDC9aYDDa6aVQkt9i+HB5UFWtuJXFM8HOT1BNuZb5CIoIjWvsp55sjFrS6OpDsYmYZ6m5ZdvVKWmqDL/rFAe2y2BEQcUmi+gJLQstl5LGNXBptVnfrBtE7Dr6aqZPReK/63dWiapnUOPtU1zxrAS5p63F/WsfTUhQkxd1Y1RQvK1ivmwxhWQiGRDvB3QgwG1a31ET+NxnAGoXVcd//3cB2ucGXbmIm5jEaVYq0Ds7go4qmaQnWC2co6iQ56cQPBzfOPvTzFJamUOehZ8rvixy88sOpABN+dJ7cNk7eS8MJZ3fkgsYId9eYIXJsFNijcxlWMJMPObgCsN29UZQk+h7PKF3g9vsLlg4GqN8arALC6sBCG6ISyfzD6e75+Pih+kn8w0ZUPrnPy30SyaYhDDeelK/LrkX0IqrjWW3GCMo327rTS+nB+SRCl79hdIMi7hZEutuxHY//Iz1s8hVTECyoEyv9EOTrXGlBPKyAsmG2Noa0b+j0775Z87pPoedGPtmR2ei1BXZ7KoRfiJKM41nem3nZGtppYPreZH2aNQw+kwkP6JLA8csrySzVgqMZ8AF7A=
