@@ -3,6 +3,7 @@ const connect = require('../lib/utils/connect');
 const mongoose = require('mongoose');
 const app = require('../lib/app');
 const request = require('supertest');
+const seedData = require('./seedData');
 
 describe('dog routes', () => {
   beforeAll(() => {
@@ -11,6 +12,10 @@ describe('dog routes', () => {
 
   beforeEach(() => {	
     return mongoose.connection.dropDatabase();	
+  });
+  
+  beforeEach(() => {
+    return seedData(5);
   });
 
   afterAll(() => {	
@@ -34,5 +39,14 @@ describe('dog routes', () => {
           _id: expect.any(String),
         });
       });
+  });
+  it('gets a list of notes', () => {
+    return request(app)
+      .get('/dogs')
+      .then(res => {
+        expect(res.ok).toBeTruthy();
+        expect(res.body).toHaveLength(5);
+      });
+
   });
 });
